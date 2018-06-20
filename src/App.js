@@ -81,8 +81,8 @@ class App extends Component {
 
           <Title>
             DOOM!!!!
-            <p>Each image below is different even thought they look the same. Each time an image is clicked, the board will shuffle.</p>
-            <p>You won't know where the image you clicked on now rests. You're only hope is to choose each click wisely in hopes that you won't click on one that has already been clicked, hence DOOM!!</p>
+            <p>Each image below is different even though they all look the same. When an image is clicked, the board will shuffle.</p>
+            <p>You won't know where the image you clicked on moved to. You're only hope is to choose each click wisely in hopes that you won't click on one that has already been clicked.</p>
           </Title>
 
           <Container>
@@ -95,6 +95,7 @@ class App extends Component {
                     handleIncrement={this.handleIncrement}
                     handleReset={this.handleReset}
                     handleShuffle={this.handleShuffle}
+                    shake={!this.state.currentScore && this.state.topScore}
                     id={blue.id}
                     image={blue.image}
                   />

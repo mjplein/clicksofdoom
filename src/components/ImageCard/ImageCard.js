@@ -3,7 +3,8 @@ import "./ImageCard.css";
 
 const ImageCard = props => (
     <div
-        className="card"
+        className={`click-item${props.shake ? " shake" : ""}`}
+        id="card"
         value={props.id}
         onClick={() => props.handleClick(props.id)}
     >
