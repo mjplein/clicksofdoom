@@ -82,7 +82,7 @@ class App extends Component {
           <Title>
             DOOM!!!!
             <p>Each image below is different even though they all look the same. When an image is clicked, the board will shuffle.</p>
-            <p>You won't know where the image you clicked on moved to. You're only hope is to choose each click wisely in hopes that you won't click on one that has already been clicked.</p>
+            <p>You won't know where the image you clicked on moved to. You're only hope is to choose each click wisely in effort to not click on one that has already been clicked.</p>
           </Title>
 
           <Container>
